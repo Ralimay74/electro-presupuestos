@@ -1,4 +1,41 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# ⚡ ElectroPresupuestos Pro
+
+Aplicación web profesional de gestión de presupuestos para electricistas y profesionales del sector industrial.
+
+![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?style=for-the-badge&logo=laravel)
+![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php)
+![Filament](https://img.shields.io/badge/Filament-3-FFF?style=for-the-badge)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql)
+
+## 📋 Características
+
+### Para Administradores
+- 📊 Dashboard interactivo con estadísticas en tiempo real
+- 📝 Gestión completa de presupuestos, clientes y materiales
+- 📄 Generación de PDFs profesionales personalizados
+- 📧 Envío de emails con PDF adjunto
+- 📊 Exportación de datos a Excel
+- 🔄 Duplicar presupuestos para trabajos recurrentes
+- 📋 Plantillas predefinidas para automatización
+
+### Para Clientes
+- 🔐 Área privada con login seguro
+- 👁️ Vista pública sin registro (con token seguro)
+- ✅ Aceptar/Rechazar presupuestos online
+- 📱 App instalable (PWA) en móvil/tablet
+- 📄 Descarga de PDFs desde su área
+
+## 🚀 Instalación
+
+```bash
+git clone https://github.com/Ralimay74/electro-presupuestos.git
+cd electro-presupuestos
+composer install
+cp .env.example .env
+php artisan key:generate
+# Configurar .env con tus credenciales de BD
+php artisan migrate
+php artisan serve<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>

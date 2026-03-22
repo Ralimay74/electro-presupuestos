@@ -5,9 +5,10 @@ use App\Http\Controllers\BudgetPdfController;
 use App\Http\Controllers\PublicBudgetController;
 use App\Http\Controllers\ClientAreaController;
 
+// Página de inicio (Landing)
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('landing');
+})->name('landing');
 
 // Ruta para descargar PDF de presupuesto
 Route::get('/presupuestos/{budget}/pdf', [BudgetPdfController::class, 'generate'])
